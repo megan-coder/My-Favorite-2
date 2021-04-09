@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background: linear-gradient(to right, #00897B, #673AB7);
+	background: linear-gradient(to right, #a354e8, #4091e3);
 	margin: 0px;
 	padding-top: 800px;
 	color: floralwhite;
@@ -14,6 +14,7 @@ h1,
 	color: floralwhite;
 	font-family:
 }
+
 .line {
 	height: 6px;
 	background-color: #000;
@@ -73,6 +74,7 @@ link;
 hover {
 	background-color: navy;
 }
+
 a {
 	text-decoration: none;
 
@@ -86,7 +88,18 @@ a {
 html {
 	scroll-behavior: smooth;
 }
-#g{
+
+#g {
 	height: 300px;
 	width: 400px;
+}
+
+MDD,
+BK {
+	transition: transform .2s;
+	border: 10px solid #AAAAAA
+}
+
+img:hover {
+	transform: scale(0.9);
 }
