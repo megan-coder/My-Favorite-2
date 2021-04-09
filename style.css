@@ -14,6 +14,12 @@ h1,
 	color: floralwhite;
 	font-family:
 }
+.line {
+	height: 6px;
+	background-color: #000;
+	width: 70px;
+	margin: 8px auto;
+}
 
 .topic {
 	padding: 20px;
@@ -24,6 +30,17 @@ h1,
 #profile {
 	border-radius: 50%;
 	width: 250px;
+}
+
+.links {
+	float: left;
+	color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	font-family: fantasy;
+	font-size: 20px;
 }
 
 p {
@@ -37,12 +54,12 @@ img {
 .menu {
 
 	list-style: none;
-	font-family: cursive;
-	float: right;
+	font-family: sans-serif;
+	position: absolute;
 	top: 10px;
 	right: 30px;
+	z-index: 10;
 	cursor: pointer;
-	display: inline;
 }
 
 li {
@@ -51,9 +68,25 @@ li {
 	font-size: large;
 }
 
-.links;
-
+link;
 
 hover {
-	background-color: darkseagreen;
+	background-color: navy;
+}
+a {
+	text-decoration: none;
+
+}
+
+.article:hover {
+	color: cornsilk;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+#g{
+	height: 300px;
+	width: 400px;
 }
